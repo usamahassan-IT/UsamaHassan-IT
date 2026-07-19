@@ -25,6 +25,6 @@ I build modern, responsive web applications using the MERN stack.
 
 ### 📫 Connect With Me
 
-- Portfolio: https://yourportfolio.com
-- LinkedIn: https://linkedin.com/in/yourprofile
-- Email: your@email.com
+- Portfolio: https://usamahassan-it.github.io/portfolio
+- LinkedIn: https://www.linkedin.com/in/usamahassan-it
+- Email: usamahassan.it@gmail.com
