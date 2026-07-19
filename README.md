@@ -14,8 +14,7 @@ I build modern, responsive web applications using the MERN stack.
 - Next.js
 - Node.js
 - Express.js
-- MongoDB
-- Git & GitHub
+- MySQL
 
 ### 🌱 Currently Learning
 
