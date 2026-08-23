@@ -1,100 +1,115 @@
 <div align="center">
 
-  <h1>Hi, I'm Usama Hassan <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px" alt="wave"></h1>
+  <!-- Animated Native Hero Banner -->
+  <a href="https://portfolio.flovoa.com" target="_blank">
+    <img src="./assets/banner.svg" width="100%" alt="Usama Hassan - Senior MERN Stack Developer" />
+  </a>
 
-  <p>
-    <strong>MERN Stack Developer &bull; Full-Stack Web Engineer &bull; 3+ Years Professional Experience</strong>
-  </p>
+  <br /><br />
 
-  <p>
-    <a href="https://portfolio.flovoa.com" target="_blank"><img src="https://img.shields.io/badge/🌐_Portfolio-portfolio.flovoa.com-0284c7?style=flat-square" alt="Portfolio"></a>
-    <a href="https://www.linkedin.com/in/usamahassan-it" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077b5?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
-    <a href="mailto:usamahassan.it@gmail.com"><img src="https://img.shields.io/badge/Email-usamahassan.it@gmail.com-ea4335?style=flat-square&logo=gmail" alt="Email"></a>
-    <a href="https://github.com/usamahassan-IT"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=flat-square&logo=github" alt="GitHub"></a>
-  </p>
-
-  <br />
-
+  <!-- Action CTA Badges -->
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,mongodb,mysql,html,css,bootstrap,git,github,vscode,postman&theme=dark" alt="Technical Skills" />
+    <a href="https://portfolio.flovoa.com" target="_blank">
+      <img src="https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-portfolio.flovoa.com-0284c7?style=for-the-badge&logoColor=white" alt="Live Portfolio" />
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/usamahassan-it" target="_blank">
+      <img src="https://img.shields.io/badge/🤝_LINKEDIN-Connect-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+    &nbsp;
+    <a href="mailto:usamahassan.it@gmail.com">
+      <img src="https://img.shields.io/badge/✉️_GET_IN_TOUCH-Email_Me-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/usamahassan-IT">
+      <img src="https://img.shields.io/badge/💻_GITHUB-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    </a>
   </p>
 
 </div>
 
 ---
 
-### 👨‍💻 Professional Profile
+### 👨‍💻 Executive Developer Profile
 
-I am a **MERN Stack Developer** with **three years of professional web development experience** building high-performance, responsive full-stack applications. Skilled in **JavaScript, React.js, Node.js, Express.js, MongoDB, RESTful APIs**, responsive interface development, database integration, authentication, debugging, and performance optimization. Experienced in translating requirements into practical features, developing user-friendly interfaces, troubleshooting application issues, and collaborating with teams to deliver reliable web solutions.
+> **MERN Stack Developer** with **3+ years of professional web development experience** building high-performance, responsive full-stack applications. Proven expertise across **JavaScript, TypeScript, React.js, Node.js, Express.js, MongoDB, and MySQL**, with deep hands-on experience in RESTful API development, database optimization, authentication, debugging, and end-to-end performance tuning.
 
-- 💼 **Experience:** 3+ Years of Professional Web Development
+- 🚀 **Full-Lifecycle Web Engineering:** Translating complex business requirements into robust, production-ready full-stack applications.
+- 🎨 **Responsive Frontend Architecture:** Building intuitive, pixel-perfect user interfaces with React.js, TypeScript, HTML5, CSS3, and Bootstrap.
+- ⚙️ **Secure Backend & API Systems:** Architecting scalable REST APIs with Node.js/Express, JWT/OAuth authentication, and defensive request validation.
+- 🗄️ **Database Optimization:** Designing normalized relational schemas (MySQL) and high-throughput NoSQL document models (MongoDB/Mongoose).
 - 🌐 **Live Portfolio:** [portfolio.flovoa.com](https://portfolio.flovoa.com)
-- 🚀 **Core Stack:** React.js &bull; Node.js &bull; Express.js &bull; MongoDB &bull; TypeScript &bull; MySQL
-- ⚡ **Strengths:** Responsive UI/UX, RESTful API Architecture, Authentication & Database Optimization
-- 📫 **Get in Touch:** [usamahassan.it@gmail.com](mailto:usamahassan.it@gmail.com)
 
 ---
 
-### 🛠️ Technical Skills
+### 🛠️ Technology Stack
 
-<table width="100%">
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,mongodb,mysql,html,css,bootstrap,git,github,vscode,postman&theme=dark" alt="Technical Stack" />
+</div>
+
+<br />
+
+<!-- Animated Proficiency & Engineering Matrix -->
+<div align="center">
+  <img src="./assets/skills_chart.svg" width="100%" alt="Core Engineering Proficiency" />
+</div>
+
+---
+
+### 📈 Live Commit & Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=usamahassan-IT&theme=tokyonight&area=true&hide_border=true&custom_title=Contributions%20%26%20Commit%20Activity" width="100%" alt="Commit & Contribution Activity Graph" />
+</div>
+
+---
+
+### 💎 Engineering Standards & Core Pillars
+
+<table>
   <tr>
-    <td width="50%" valign="top">
-      <h4>🎨 Frontend Development</h4>
-      <ul>
-        <li><strong>Core Technologies:</strong> React.js, JavaScript (ES6+), TypeScript</li>
-        <li><strong>Styling & Design:</strong> HTML5, CSS3, Bootstrap, Responsive Web Design</li>
-        <li><strong>Core Competencies:</strong> DOM Manipulation, Component Architecture, State Management, Cross-Browser Compatibility</li>
-      </ul>
+    <td width="33%" align="center" valign="top">
+      <h3>⚡ Performance First</h3>
+      <p align="left">
+        Optimizing DOM rendering, state pipelines, database indexing, and asset delivery to ensure sub-second response times and high Core Web Vitals scores.
+      </p>
     </td>
-    <td width="50%" valign="top">
-      <h4>⚙️ Backend & APIs</h4>
-      <ul>
-        <li><strong>Environments & Frameworks:</strong> Node.js, Express.js, PHP</li>
-        <li><strong>API Engineering:</strong> RESTful API Development, Routing & Integration</li>
-        <li><strong>Security & Validation:</strong> Authentication, Authorization, API Validation, Error Handling</li>
-      </ul>
+    <td width="33%" align="center" valign="top">
+      <h3>🛡️ Security &amp; Auth</h3>
+      <p align="left">
+        Implementing enterprise-grade authentication (JWT/OAuth), role-based access control (RBAC), input sanitization, and defensive API error handling.
+      </p>
     </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🗄️ Databases</h4>
-      <ul>
-        <li><strong>NoSQL:</strong> MongoDB, Mongoose ODM</li>
-        <li><strong>Relational SQL:</strong> MySQL</li>
-        <li><strong>Capabilities:</strong> Schema Modeling, Data Integration, Query Optimization, Indexing</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h4>🛠️ Tools & Practices</h4>
-      <ul>
-        <li><strong>Version Control:</strong> Git, GitHub</li>
-        <li><strong>Developer Tools:</strong> VS Code, Chrome DevTools, Postman</li>
-        <li><strong>Engineering Practices:</strong> Debugging, Testing, Performance Optimization, Problem Solving</li>
-      </ul>
+    <td width="33%" align="center" valign="top">
+      <h3>📱 Responsive UX</h3>
+      <p align="left">
+        Delivering seamless, mobile-first, cross-browser compatible user interfaces with intuitive interactions and clean component architecture.
+      </p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📊 GitHub Activity & Insights
+### 📬 Let's Build Something Exceptional
+
+Looking for a **MERN Stack Developer** to join your team, build a scalable web application, or collaborate on exciting projects?
+
+<p align="center">
+  <a href="https://portfolio.flovoa.com" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_EXPLORE_PORTFOLIO-0284c7?style=for-the-badge&logoColor=white" alt="Visit Portfolio" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="mailto:usamahassan.it@gmail.com">
+    <img src="https://img.shields.io/badge/✉️_SEND_AN_EMAIL-059669?style=for-the-badge&logoColor=white" alt="Send Email" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/usamahassan-it" target="_blank">
+    <img src="https://img.shields.io/badge/🤝_CONNECT_ON_LINKEDIN-0077b5?style=for-the-badge&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=usamahassan-IT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=E2E8F0" alt="GitHub Stats" height="155" />
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usamahassan-IT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0" alt="Top Languages" height="155" />
-  <br /><br />
-  <img src="https://streak-stats.demolab.com?user=usamahassan-IT&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
-</div>
-
----
-
-<div align="center">
-  <p>
-    <a href="https://portfolio.flovoa.com" target="_blank"><strong>🌐 Visit Live Portfolio</strong></a> &bull;
-    <a href="https://www.linkedin.com/in/usamahassan-it" target="_blank"><strong>LinkedIn</strong></a> &bull;
-    <a href="mailto:usamahassan.it@gmail.com"><strong>Email Me</strong></a>
-  </p>
-  <sub>Designed &amp; Maintained by <strong>Usama Hassan</strong> &bull; © 2026</sub>
+  <sub>⚡ Engineered with precision by <strong>Usama Hassan</strong> &bull; Senior MERN Stack Developer &bull; © 2026</sub>
 </div>

@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" width="100%" height="280" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070A12" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#05070E" />
+    </linearGradient>
+
+    <!-- Animated Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7">
+        <animate attributeName="stop-color" values="#0284c7;#8b5cf6;#10b981;#38bdf8;#0284c7" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#8b5cf6">
+        <animate attributeName="stop-color" values="#8b5cf6;#10b981;#38bdf8;#0284c7;#8b5cf6" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10b981">
+        <animate attributeName="stop-color" values="#10b981;#38bdf8;#0284c7;#8b5cf6;#10b981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Animated Title Shimmer -->
+    <linearGradient id="textShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#c084fc;#34d399;#38bdf8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#34d399;#38bdf8;#818cf8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#38bdf8;#c084fc;#34d399" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Subtle Dot Grid -->
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e293b" opacity="0.6" />
+    </pattern>
+  </defs>
+
+  <style>
+    .name-main { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Inter', sans-serif; font-size: 36px; font-weight: 900; letter-spacing: -0.5px; fill: url(#textShimmer); }
+    .role-main { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; font-size: 17px; font-weight: 700; fill: #f8fafc; }
+    .desc-main { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 13.5px; fill: #94a3b8; font-weight: 500; }
+    .badge-label { font-family: 'JetBrains Mono', monospace; font-size: 11.5px; font-weight: 700; fill: #f1f5f9; }
+    .status-badge { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 800; fill: #10b981; letter-spacing: 0.5px; }
+
+    @keyframes pulseDot {
+      0%, 100% { r: 4px; opacity: 1; }
+      50% { r: 7px; opacity: 0.3; }
+    }
+    @keyframes blinkCursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .pulsing-beacon { animation: pulseDot 2s infinite ease-in-out; }
+    .cli-cursor { animation: blinkCursor 0.9s infinite; fill: #38bdf8; }
+  </style>
+
+  <!-- Container Box -->
+  <rect x="2" y="2" width="916" height="276" rx="16" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="1.8" />
+  <rect x="2" y="2" width="916" height="276" rx="16" fill="url(#dotGrid)" />
+
+  <!-- Window Bar -->
+  <path d="M 2 18 Q 2 2 18 2 L 902 2 Q 918 2 918 18 L 918 40 L 2 40 Z" fill="#0b0f19" opacity="0.9" />
+  <line x1="2" y1="40" x2="918" y2="40" stroke="#1e293b" stroke-width="1" />
+
+  <!-- Mac Window Dots -->
+  <circle cx="26" cy="21" r="5.5" fill="#ef4444" />
+  <circle cx="44" cy="21" r="5.5" fill="#eab308" />
+  <circle cx="62" cy="21" r="5.5" fill="#22c55e" />
+
+  <!-- Window Header Title -->
+  <text x="460" y="25" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#64748b" font-weight="600">
+    ⚡ USAMA HASSAN &bull; SENIOR MERN DEVELOPER &bull; portfolio.flovoa.com
+  </text>
+
+  <!-- Status Beacon Badge (Top Right) -->
+  <g transform="translate(685, 11)">
+    <rect x="0" y="0" width="215" height="20" rx="10" fill="#064e3b" opacity="0.6" stroke="#059669" stroke-width="1" />
+    <circle cx="14" cy="10" r="4.5" fill="#10b981" class="pulsing-beacon" />
+    <text x="28" y="14" class="status-badge">OPEN TO HIRE • FULL-TIME</text>
+  </g>
+
+  <!-- Main Hero Content -->
+  <text x="36" y="92" class="name-main">USAMA HASSAN</text>
+
+  <text x="36" y="128" class="role-main">
+    <tspan fill="#38bdf8">&gt;</tspan> Senior Full-Stack &amp; <tspan fill="#38bdf8">MERN Stack Developer</tspan>
+    <tspan class="cli-cursor">_</tspan>
+  </text>
+
+  <text x="36" y="158" class="desc-main">
+    3+ Years Experience &bull; Engineering high-performance web systems, secure REST APIs &amp; intuitive UIs
+  </text>
+
+  <!-- Tech Badge Pills Row -->
+  <g transform="translate(36, 192)">
+    <rect x="0" y="0" width="130" height="34" rx="8" fill="#111827" stroke="#38bdf8" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="5" fill="#38bdf8" />
+    <text x="30" y="21" class="badge-label">React.js / TS</text>
+  </g>
+
+  <g transform="translate(178, 192)">
+    <rect x="0" y="0" width="138" height="34" rx="8" fill="#111827" stroke="#22c55e" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="5" fill="#22c55e" />
+    <text x="30" y="21" class="badge-label">Node.js / Express</text>
+  </g>
+
+  <g transform="translate(328, 192)">
+    <rect x="0" y="0" width="138" height="34" rx="8" fill="#111827" stroke="#10b981" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="5" fill="#10b981" />
+    <text x="30" y="21" class="badge-label">MongoDB / MySQL</text>
+  </g>
+
+  <g transform="translate(478, 192)">
+    <rect x="0" y="0" width="144" height="34" rx="8" fill="#111827" stroke="#f59e0b" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="5" fill="#f59e0b" />
+    <text x="30" y="21" class="badge-label">RESTful API Design</text>
+  </g>
+
+  <g transform="translate(634, 192)">
+    <rect x="0" y="0" width="136" height="34" rx="8" fill="#111827" stroke="#8b5cf6" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="5" fill="#8b5cf6" />
+    <text x="30" y="21" class="badge-label">Performance Tuning</text>
+  </g>
+
+  <g transform="translate(782, 192)">
+    <rect x="0" y="0" width="102" height="34" rx="8" fill="#111827" stroke="#ec4899" stroke-width="1.2" />
+    <circle cx="16" cy="17" r="5" fill="#ec4899" />
+    <text x="30" y="21" class="badge-label">3+ Yrs Exp</text>
+  </g>
+
+  <!-- Bottom Line -->
+  <line x1="16" y1="248" x2="904" y2="248" stroke="#1e293b" stroke-width="1" />
+</svg>
