@@ -1,19 +1,13 @@
 <div align="center">
 
-  <!-- Neon Glowing Typing Banner -->
-  <a href="https://github.com/UsamaHassan-IT">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2500&pause=800&color=38BDF8&multiline=false&center=true&vCenter=true&width=620&lines=⚡+INITIALIZING+USAMA_HASSAN.EXE;🚀+MERN+Stack+Architect;💻+High-Performance+Web+Engineer;✨+Building+Scalable+Modern+Systems" alt="Typing Banner" />
+  <!-- Native Animated Terminal Banner -->
+  <a href="https://flovoa.portfolio.com" target="_blank">
+    <img src="./header.svg" width="100%" alt="Usama Hassan Banner" />
   </a>
 
-  <p align="center">
-    <samp>
-      <strong>[ 3+ Years Experience ]</strong> &bull;
-      <strong>[ Production-Grade MERN Stack ]</strong> &bull;
-      <strong>[ REST & Microservices ]</strong>
-    </samp>
-  </p>
+  <br /><br />
 
-  <!-- Cyber Pill CTA Badges -->
+  <!-- Direct Action Links -->
   <p align="center">
     <a href="https://flovoa.portfolio.com" target="_blank">
       <img src="https://img.shields.io/badge/🌐_PORTFOLIO-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
@@ -27,41 +21,39 @@
       <img src="https://img.shields.io/badge/✉️_GET_IN_TOUCH-10B981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
     &nbsp;
-    <a href="https://github.com/UsamaHassan-IT">
+    <a href="https://github.com/usamahassan-IT">
       <img src="https://img.shields.io/badge/💻_GITHUB-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
     </a>
   </p>
 
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="separator" />
-
 </div>
 
-<br />
+---
 
-### 🧑‍💻 `whoami` &mdash; Executive Developer Profile
+### 🧑‍💻 `whoami` &mdash; Developer Persona
 
 ```typescript
-const developer: SoftwareEngineer = {
-  name: "Usama Hassan",
-  title: "MERN Stack Developer & Full-Stack Architect",
-  experience: "3+ Years of Production-Ready Web Engineering",
-  status: "Available for High-Impact Roles & Custom Builds",
-  location: "Global / Remote",
-  stack: {
+const usamaHassan: SoftwareEngineer = {
+  role: "MERN Stack Developer & Full-Stack Architect",
+  experience: "3+ Years of Building Production Web Systems",
+  portfolio: "https://flovoa.portfolio.com",
+  contact: "usamahassan.it@gmail.com",
+  status: "Open to Full-Time Roles & High-Impact Contracts",
+  coreCompetencies: {
     frontend: ["React.js", "TypeScript", "JavaScript (ES6+)", "HTML5", "CSS3", "Bootstrap"],
-    backend:  ["Node.js", "Express.js", "PHP", "REST APIs", "JWT Auth", "OAuth2"],
+    backend:  ["Node.js", "Express.js", "PHP", "RESTful APIs", "JWT / OAuth2 Security"],
     database: ["MongoDB", "Mongoose ODM", "MySQL"],
-    devops:   ["Git", "GitHub", "Chrome DevTools", "VS Code", "Postman", "CI/CD"]
+    tooling:  ["Git", "GitHub", "Chrome DevTools", "VS Code", "Postman", "Performance Profiling"]
   },
-  missionStatement: () => {
-    return "Transforming complex business logic into blazing-fast, secure, and intuitive web systems.";
+  engineeringPhilosophy: () => {
+    return "Writing clean, scalable code that translates complex business requirements into fast, intuitive applications.";
   }
 };
 ```
 
 ---
 
-### 🍱 Tech Ecosystem & Competencies
+### 🍱 Technical Arsenal & Core Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=react,ts,js,nodejs,express,mongodb,mysql,html,css,bootstrap,git,github,vscode,postman&perline=7" alt="Tech Stack Grid" />
@@ -71,47 +63,47 @@ const developer: SoftwareEngineer = {
 
 <table>
   <thead>
-    <tr style="border: none;">
-      <th width="50%" align="left">🎨 Frontend & UI Architecture</th>
-      <th width="50%" align="left">⚙️ Backend & API Engineering</th>
+    <tr>
+      <th width="50%" align="left">🎨 Frontend & UI Engineering</th>
+      <th width="50%" align="left">⚙️ Backend & API Scalability</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>
         <ul>
-          <li><strong>React Ecosystem:</strong> Hooks, Context API, Modular Component Design</li>
-          <li><strong>Languages:</strong> JavaScript (ES6+), TypeScript, Modern HTML5, CSS3</li>
-          <li><strong>Styling & UX:</strong> Bootstrap, Responsive Web Design, DOM Manipulation</li>
-          <li><strong>Quality:</strong> Cross-Browser Consistency, Accessibility & Speed</li>
+          <li><strong>React Ecosystem:</strong> Hooks, State Management, Modular Component Architecture</li>
+          <li><strong>Languages:</strong> Modern JavaScript (ES6+), TypeScript, Semantic HTML5, CSS3</li>
+          <li><strong>UI & Styling:</strong> Bootstrap, Responsive Web Design, DOM Optimization</li>
+          <li><strong>Cross-Browser:</strong> Ensuring pixel-perfect compatibility & high Lighthouse scores</li>
         </ul>
       </td>
       <td>
         <ul>
           <li><strong>Runtime & Frameworks:</strong> Node.js, Express.js, PHP</li>
-          <li><strong>API Architecture:</strong> RESTful APIs, Custom Middlewares, Endpoint Validation</li>
-          <li><strong>Security:</strong> Authentication (JWT/OAuth), Authorization, Sanitization</li>
-          <li><strong>Performance:</strong> Async Pipelines, Caching & Optimized Latency</li>
+          <li><strong>API Design:</strong> RESTful Endpoints, Custom Middlewares, Payload Validation</li>
+          <li><strong>Security:</strong> Authentication (JWT/OAuth), Role-Based Access Control, Sanitization</li>
+          <li><strong>Performance:</strong> Async pipelines, rate limiting, and reduced response latency</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <th align="left">🗄️ Database & Data Layer</th>
+      <th align="left">🗄️ Database & Data Modeling</th>
       <th align="left">🛠️ Engineering Toolchain & Practices</th>
     </tr>
     <tr>
       <td>
         <ul>
-          <li><strong>NoSQL:</strong> MongoDB with Mongoose ODM modeling</li>
-          <li><strong>Relational SQL:</strong> MySQL schema design & query tuning</li>
-          <li><strong>Data Ops:</strong> Indexing, Aggregation Pipelines, Transactions</li>
+          <li><strong>NoSQL:</strong> MongoDB with Mongoose ODM schemas & validation</li>
+          <li><strong>Relational SQL:</strong> MySQL relational design, indexing & normalization</li>
+          <li><strong>Data Operations:</strong> Aggregation pipelines, CRUD operations, query optimization</li>
         </ul>
       </td>
       <td>
         <ul>
-          <li><strong>Version Control:</strong> Git, GitHub Flow, Code Reviews</li>
-          <li><strong>Diagnostics:</strong> Chrome DevTools, Postman, Debugging suites</li>
-          <li><strong>Methods:</strong> Performance Profiling, Clean Code, Agile Delivery</li>
+          <li><strong>Version Control:</strong> Git, GitHub Workflow, Feature Branching</li>
+          <li><strong>Diagnostics:</strong> Chrome DevTools, Postman API testing, Debugging suites</li>
+          <li><strong>Standards:</strong> Agile delivery, clean architecture, performance tuning</li>
         </ul>
       </td>
     </tr>
@@ -120,12 +112,12 @@ const developer: SoftwareEngineer = {
 
 ---
 
-### ⚡ Architectural Workflow
+### ⚡ Full-Stack Architectural Pipeline
 
 ```mermaid
-flowchart TD
+flowchart LR
     subgraph UI [" 🎨 Client Layer (React / TypeScript / HTML5) "]
-        A[Responsive UI Components] --> B[State Management & Custom Hooks]
+        A[Responsive UI Components] --> B[State Management & Context API]
     end
 
     subgraph API [" ⚙️ Server Layer (Node.js / Express.js) "]
@@ -133,8 +125,8 @@ flowchart TD
         C --> D[Business Logic & Controllers]
     end
 
-    subgraph DB [" 🗄️ Persistence Layer (MongoDB / MySQL) "]
-        D -->|Mongoose / SQL Queries| E[(Optimized Data Store)]
+    subgraph DB [" 🗄️ Data Layer (MongoDB / MySQL) "]
+        D -->|Mongoose ODM / SQL Queries| E[(Optimized Data Store)]
     end
 
     classDef default fill:#0d1117,stroke:#38bdf8,stroke-width:1px,color:#f1f5f9;
@@ -142,41 +134,36 @@ flowchart TD
 
 ---
 
-### 📊 Real-Time GitHub Analytics
+### 📊 GitHub Activity & Analytics
 
 <div align="center">
   <table border="0" style="border: none;">
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=UsamaHassan-IT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=E2E8F0" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=usamahassan-IT&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=E2E8F0" alt="GitHub Stats" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=UsamaHassan-IT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=usamahassan-IT&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=E2E8F0" alt="Top Languages" />
       </td>
     </tr>
   </table>
 
   <p align="center">
-    <img src="https://streak-stats.demolab.com?user=UsamaHassan-IT&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
-  </p>
-
-  <!-- GitHub Trophy Showcase -->
-  <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=UsamaHassan-IT&theme=onedark&no-frame=true&no-bg=true&margin-w=4" alt="GitHub Trophies" />
+    <img src="https://streak-stats.demolab.com?user=usamahassan-IT&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8" alt="GitHub Streak" />
   </p>
 </div>
 
 ---
 
-### 🚀 Let's Build Something Exceptional
+### 🚀 Let's Build Something Great Together
 
 <p align="center">
-  Looking for a dedicated <strong>MERN Stack Developer</strong> to build your next web app or scale your team?
+  Have an exciting project, open role, or contract? Let's connect!
 </p>
 
 <p align="center">
   <a href="https://flovoa.portfolio.com" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_EXPLORE_PORTFOLIO-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/🌐_VISIT_PORTFOLIO-0284C7?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   &nbsp;&nbsp;
   <a href="mailto:usamahassan.it@gmail.com">
